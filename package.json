@@ -1,0 +1,27 @@
+{
+  "name": "SplitTheBill",
+  "version": "1.0.0",
+  "description": "A bill and tip calculating app for friends to evenly split the payment of a bill when out on group activities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephanie041996/SplitTheBill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephanie041996/SplitTheBill/issues"
+  },
+  "homepage": "https://github.com/Stephanie041996/SplitTheBill#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
